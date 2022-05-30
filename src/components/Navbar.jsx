@@ -1,4 +1,4 @@
-import { Flex,Heading,Box,Button,Spacer,ButtonGroup,Menu,MenuItem,MenuList,MenuButton} from '@chakra-ui/react'
+import { Flex,Heading,Box,Button,Spacer,ButtonGroup,Menu,MenuItem,MenuList,MenuButton,Link} from '@chakra-ui/react'
 import React from 'react'
 import theme from './style'
 
@@ -47,7 +47,7 @@ const Navbar = () => {
           <Spacer/>
           
           <ButtonGroup gap='2'>
-    <Button colorScheme='white' color='grey'>Sign in</Button>
+          <Link>Sign in</Link>
     <Button colorScheme='pink'>Sign up</Button>
   </ButtonGroup>
  </Flex>
